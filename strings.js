@@ -11,3 +11,7 @@ const anotherString = "   Another string"; // 3 spaces at start
 const hello = "Hello there! ";
 const myName = "Jeremy";
 
+// --- 2. Length and charAt ---
+console.log("Length of myString:", myString.length);
+console.log("First character:", myString.charAt(0));
+console.log("11th character:", myString.charAt(10));
