@@ -22,3 +22,9 @@ console.log("Sliced text:", slicedText);
 // Use substring to get "the" from anotherString
 const subStringText = anotherString.substring(6, 9); 
 console.log("Substring text:", subStringText);
+
+// Print myName in all upper case
+console.log("Uppercase:", myName.toUpperCase());
+
+// Print myName in all lower case
+console.log("Lowercase:", myName.toLowerCase());
