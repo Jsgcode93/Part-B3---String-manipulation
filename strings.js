@@ -37,3 +37,11 @@ console.log("Trimmed:", anotherString.trim());
 console.log("Replaced:", myString.replace("is a", ""));
 // Split myString into an array of words
 console.log("Split:", myString.split(" "));
+
+const fs = require('fs');
+const fileData = "Jeremy Geddes - Part B3 File - completed";
+fs.writeFileSync('output.txt', fileData);
+console.log("File 'output.txt' written successfully.");
+
+const readData = fs.readFileSync('output.txt', 'utf8');
+console.log("Read from file:", readData);
