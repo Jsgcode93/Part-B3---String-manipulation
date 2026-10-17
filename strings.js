@@ -15,3 +15,4 @@ const myName = "Jeremy";
 console.log("Length of myString:", myString.length);
 console.log("First character:", myString.charAt(0));
 console.log("11th character:", myString.charAt(10));
+
