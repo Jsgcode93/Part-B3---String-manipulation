@@ -28,3 +28,12 @@ console.log("Uppercase:", myName.toUpperCase());
 
 // Print myName in all lower case
 console.log("Lowercase:", myName.toLowerCase());
+
+// Concatenate hello and myname
+console.log("Concat:", hello.concat(myName));
+// Trim anotherString
+console.log("Trimmed:", anotherString.trim());
+// Replace "is a" with an empty string in myString
+console.log("Replaced:", myString.replace("is a", ""));
+// Split myString into an array of words
+console.log("Split:", myString.split(" "));
